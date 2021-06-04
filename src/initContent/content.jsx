@@ -15,7 +15,7 @@ const INITIAL_TOOLBOX_JSON = {
 			},
 			{
 				kind: 'block',
-				type: 'contracts_when',
+				type: 'custom_block',
 			},
 			
 		],

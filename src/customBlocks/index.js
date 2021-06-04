@@ -27,9 +27,9 @@ Blockly.JavaScript["string_length"] = function(block){
 }; 
 
 
-/* 2. Contract When */
-/* 1.A. Contract When - Block Definition   */
-Blockly.Blocks['contracts_when'] = {
+/* 2. Custom Block */
+/* 1.A. Custom Block - Block Definition   */
+Blockly.Blocks['custom_block'] = {
     init: function() {
       this.appendDummyInput()
           .setAlign(Blockly.ALIGN_CENTRE)
@@ -51,9 +51,9 @@ Blockly.Blocks['contracts_when'] = {
    this.setTooltip("");
    this.setHelpUrl("");
     }
-  };/* 1.B. Contract When - Add ToolBox Ref.  */
-/* 1.C. Contract When - Add Generator Function */
-Blockly.JavaScript['contracts_when'] = function(block) {
+  };/* 1.B. Custom Block - Add ToolBox Ref.  */
+/* 1.C. Custom Block - Add Generator Function */
+Blockly.JavaScript['custom_block'] = function(block) {
     var statements_name = Blockly.JavaScript.statementToCode(block, 'NAME');
     var dropdown_asdadsasd = block.getFieldValue('asdadsasd');
     var text_number = block.getFieldValue('number');
